@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04e2a04a-00fc-4452-a521-05cc0cdeb992" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/restaurant/account.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/restaurant/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/restaurant/meal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/restaurant/report.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/restaurant/sign-in.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/restaurant/sign-up.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodtaskertest/foodtaskerapp/templates/restaurant/account.html" afterPath="$PROJECT_DIR$/foodtaskertest/foodtaskerapp/templates/restaurant/account.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodtaskertest/foodtaskerapp/templates/restaurant/meal.html" afterPath="$PROJECT_DIR$/foodtaskertest/foodtaskerapp/templates/restaurant/meal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodtaskertest/foodtaskerapp/templates/restaurant/order.html" afterPath="$PROJECT_DIR$/foodtaskertest/foodtaskerapp/templates/restaurant/order.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodtaskertest/foodtaskerapp/templates/restaurant/report.html" afterPath="$PROJECT_DIR$/foodtaskertest/foodtaskerapp/templates/restaurant/report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
     </list>
     <ignored path="FoodDeliverySwift.iws" />
     <ignored path=".idea/workspace.xml" />
