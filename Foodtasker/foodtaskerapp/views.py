@@ -33,7 +33,7 @@ def restaurant_sign_up(request):
 
             return redirect(restaurant_home)
 
-    return render(request, 'restaurant/sign_up.html', {
+    return render(request, "restaurant/sign_up.html", {
         "user_form": user_form,
         "restaurant_form": restaurant_form
     })
