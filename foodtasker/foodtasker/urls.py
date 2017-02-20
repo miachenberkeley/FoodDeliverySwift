@@ -29,5 +29,6 @@ urlpatterns = [
     # Sign In/ Sign Up/ Sign Out
     url(r'^api/social/', include('rest_framework_social_oauth2.urls')),
     # /convert-token (sign in/ sign up)
+
     # /revoke-token (sign out)
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

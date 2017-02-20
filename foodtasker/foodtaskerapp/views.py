@@ -17,6 +17,7 @@ def restaurant_home(request):
 
 @login_required(login_url='/restaurant/sign-in/')
 def restaurant_account(request):
+    return render(request, 'restaurant/account.html',{})
     user_form = UserFormForEdit(instance = request.user)
     restaurant_form = RestaurantForm(instance = request.user.restaurant)
 

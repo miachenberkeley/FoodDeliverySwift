@@ -14,7 +14,9 @@ class Restaurant(models.Model):
         return self.name
 
 class Customer(models.Model):
+
     user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='customer')
+
     avatar = models.CharField(max_length=500)
     phone = models.CharField(max_length=500, blank=True)
     address = models.CharField(max_length=500, blank=True)
@@ -23,7 +25,9 @@ class Customer(models.Model):
         return self.user.get_full_name()
 
 class Driver(models.Model):
+
     user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='driver')
+
     avatar = models.CharField(max_length=500)
     phone = models.CharField(max_length=500, blank=True)
     address = models.CharField(max_length=500, blank=True)
